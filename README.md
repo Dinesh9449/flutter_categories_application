@@ -5,12 +5,39 @@ A new Flutter project.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+A Flutter assignment that displays product categories in a circular radial layout with a center “Home” button, connected using custom-drawn rays, matching the provided UI design
 
-A few resources to get you started if this is your first Flutter project:
+## API Integration
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Categories are fetched from a REST API using http
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Data loaded using FutureBuilder
+## Custom Circular UI
+
+Categories arranged in a circular layout
+
+Center “Home” circle
+
+Custom rays drawn using CustomPainter
+
+## Gradient Background
+
+Diagonal purple gradient (#772D8E → #2E0F6E)
+
+Matches provided design reference
+
+##  Tap Interaction
+
+Category selection state
+
+Visual highlight on selected category
+
+## Accessibility
+
+Semantic labels for category items
+
+## Clean Architecture
+
+Models, services, and UI separated
+
+Reusable widgets and painters
